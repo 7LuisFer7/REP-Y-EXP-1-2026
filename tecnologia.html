@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Tecnología</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/style.css">
+
+<style>
+
+.hero-tec{
+
+    min-height:80vh;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,.65),
+        rgba(0,0,0,.65)
+    ),
+    url("images/tecnologia.jfif");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+
+}
+
+.hero-tec h1{
+
+    color:white;
+    font-size:4rem;
+    font-weight:800;
+
+}
+
+.hero-tec p{
+
+    color:white;
+    font-size:1.3rem;
+
+}
+
+.programa-card{
+
+    border:none;
+    border-radius:20px;
+    overflow:hidden;
+    transition:.3s;
+    height:100%;
+
+}
+
+.programa-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.icono-programa{
+
+    font-size:4rem;
+    text-align:center;
+    margin-top:20px;
+
+}
+
+.programa-card h4{
+
+    color:var(--guindo);
+    text-align:center;
+    font-weight:700;
+
+}
+
+.lista-uso{
+
+    padding-left:20px;
+
+}
+
+@media(max-width:768px){
+
+.hero-tec h1{
+
+font-size:2.5rem;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- MENU -->
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+
+<div class="container">
+
+<a class="navbar-brand" href="index.html">
+<img src="images/logo Faadu.png">
+</a>
+
+<button class="navbar-toggler"
+type="button"
+data-bs-toggle="collapse"
+data-bs-target="#menu">
+
+<span class="navbar-toggler-icon"></span>
+
+</button>
+
+<div class="collapse navbar-collapse justify-content-center" id="menu">
+
+<ul class="navbar-nav">
+
+<li class="nav-item">
+<a class="nav-link" href="index.html">INICIO</a>
+</li>
+
+
+<li class="nav-item">
+
+<a class="nav-link"
+href="proceso.html">
+
+PROCESO
+
+</a>
+
+</li>
+
+</li>
+
+<li class="nav-item dropdown">
+
+<a class="nav-link dropdown-toggle"
+href="#"
+data-bs-toggle="dropdown">
+
+DECISIONES
+
+</a>
+
+<ul class="dropdown-menu">
+
+<li><a class="dropdown-item" href="actividades.html">ACTIVIDADES</a></li>
+<li><a class="dropdown-item" href="visitas.html">VISITAS</a></li>
+<li><a class="dropdown-item" href="bitacora.html">BITÁCORA</a></li>
+
+</ul>
+
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="dudas.html">DUDAS</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="descubrimientos.html">DESCUBRIMIENTOS</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link active-menu" href="tecnologia.html">TECNOLOGÍA</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="examenes.html">EXAMENES</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="trabajo-final.html">TRABAJO FINAL</a>
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="hero-tec">
+
+<div>
+
+<h1>TECNOLOGÍA</h1>
+
+<p>
+
+Herramientas digitales aplicadas a la representación arquitectónica
+
+</p>
+
+</div>
+
+</section>
+
+<!-- INTRODUCCIÓN -->
+
+<section class="seccion">
+
+<div class="container">
+
+<h2 class="titulo-seccion">
+
+CRITERIOS DE USO TECNOLÓGICO
+
+</h2>
+
+<p class="text-center lead mb-5">
+
+Las herramientas digitales complementan el trabajo manual, permitiendo representar, modelar y presentar proyectos arquitectónicos de manera más eficiente.
+
+</p>
+
+<div class="row g-4">
+
+<!-- AUTOCAD -->
+
+<div class="col-md-6 col-lg-4">
+
+<div class="card programa-card shadow">
+
+<div class="icono-programa">📐</div>
+
+<div class="card-body">
+
+<h4>AUTOCAD</h4>
+
+<ul class="lista-uso">
+<li>Dibujo técnico en 2D.</li>
+<li>Plantas y elevaciones.</li>
+<li>Acotación de planos.</li>
+<li>Organización mediante capas.</li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- SKETCHUP -->
+
+<div class="col-md-6 col-lg-4">
+
+<div class="card programa-card shadow">
+
+<div class="icono-programa">🏗️</div>
+
+<div class="card-body">
+
+<h4>SKETCHUP</h4>
+
+<ul class="lista-uso">
+<li>Modelado tridimensional.</li>
+<li>Visualización espacial.</li>
+<li>Maquetas digitales.</li>
+<li>Estudios volumétricos.</li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- PHOTOSHOP -->
+
+<div class="col-md-6 col-lg-4">
+
+<div class="card programa-card shadow">
+
+<div class="icono-programa">🎨</div>
+
+<div class="card-body">
+
+<h4>PHOTOSHOP</h4>
+
+<ul class="lista-uso">
+<li>Edición de imágenes.</li>
+<li>Presentaciones gráficas.</li>
+<li>Corrección de color.</li>
+<li>Fotomontajes arquitectónicos.</li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- CANVA -->
+
+<div class="col-md-6 col-lg-4">
+
+<div class="card programa-card shadow">
+
+<div class="icono-programa">🖼️</div>
+
+<div class="card-body">
+
+<h4>CANVA</h4>
+
+<ul class="lista-uso">
+<li>Presentaciones.</li>
+<li>Infografías.</li>
+<li>Diseño visual.</li>
+<li>Portafolios académicos.</li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- POWERPOINT -->
+
+<div class="col-md-6 col-lg-4">
+
+<div class="card programa-card shadow">
+
+<div class="icono-programa">📊</div>
+
+<div class="card-body">
+
+<h4>POWERPOINT</h4>
+
+<ul class="lista-uso">
+<li>Exposiciones.</li>
+<li>Presentación de proyectos.</li>
+<li>Organización de información.</li>
+<li>Comunicación visual.</li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- IA -->
+
+<div class="col-md-6 col-lg-4">
+
+<div class="card programa-card shadow">
+
+<div class="icono-programa">🤖</div>
+
+<div class="card-body">
+
+<h4>INTELIGENCIA ARTIFICIAL</h4>
+
+<ul class="lista-uso">
+<li>Generación de ideas.</li>
+<li>Búsqueda de referencias.</li>
+<li>Optimización del aprendizaje.</li>
+<li>Apoyo en procesos creativos.</li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+<div class="container text-center">
+
+<h4>REPRESENTACIÓN Y EXPRESIÓN I</h4>
+
+<p>ARQ. WILLIAMS TERRAZAS</p>
+
+</div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
