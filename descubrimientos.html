@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Descubrimientos</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/style.css">
+
+<style>
+
+.hero-desc{
+
+    min-height:80vh;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,.60),
+        rgba(0,0,0,.60)
+    ),
+    url("images/descubrimiento.jfif");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+
+}
+
+.hero-desc h1{
+
+    color:white;
+    font-size:4rem;
+    font-weight:800;
+
+}
+
+.hero-desc p{
+
+    color:white;
+    font-size:1.3rem;
+
+}
+
+.desc-card{
+
+    border:none;
+    border-radius:20px;
+    overflow:hidden;
+    transition:.3s;
+    height:100%;
+
+}
+
+.desc-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.icono-desc{
+
+    font-size:4rem;
+    text-align:center;
+    color:var(--guindo);
+    margin-top:20px;
+
+}
+
+.titulo-card{
+
+    color:var(--guindo);
+    font-weight:700;
+    text-align:center;
+
+}
+
+@media(max-width:768px){
+
+.hero-desc h1{
+
+font-size:2.5rem;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- MENU -->
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+
+<div class="container">
+
+<a class="navbar-brand" href="index.html">
+
+<img src="images/logo Faadu.png">
+
+</a>
+
+<button class="navbar-toggler"
+type="button"
+data-bs-toggle="collapse"
+data-bs-target="#menu">
+
+<span class="navbar-toggler-icon"></span>
+
+</button>
+
+<div class="collapse navbar-collapse justify-content-center" id="menu">
+
+<ul class="navbar-nav">
+
+<li class="nav-item">
+<a class="nav-link" href="index.html">INICIO</a>
+</li>
+
+</a>
+
+<li class="nav-item">
+<a class="nav-link" href="proceso.html">PROCESO</a>
+</li>
+
+</li>
+
+<li class="nav-item dropdown">
+
+<a class="nav-link dropdown-toggle"
+href="#"
+data-bs-toggle="dropdown">
+
+DECISIONES
+
+</a>
+
+<ul class="dropdown-menu">
+
+<li><a class="dropdown-item" href="actividades.html">ACTIVIDADES</a></li>
+<li><a class="dropdown-item" href="visitas.html">VISITAS</a></li>
+<li><a class="dropdown-item" href="bitacora.html">BITÁCORA</a></li>
+
+</ul>
+
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="dudas.html">DUDAS</a>
+</li>
+
+<li class="nav-item">
+
+<a class="nav-link active-menu"
+href="descubrimientos.html">
+
+DESCUBRIMIENTOS
+
+</a>
+
+<li class="nav-item">
+<a class="nav-link" href="tecnologia.html">TECNOLOGÍA</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="examenes.html">EXAMENES</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="trabajo-final.html">TRABAJO FINAL</a>
+</li>
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="hero-desc">
+
+<div>
+
+<h1>
+
+DESCUBRIMIENTOS
+
+</h1>
+
+<p>
+
+Hallazgos, aprendizajes y soluciones encontradas durante el semestre
+
+</p>
+
+</div>
+
+</section>
+
+<!-- CONTENIDO -->
+
+<section class="seccion">
+
+<div class="container">
+
+<h2 class="titulo-seccion">
+
+HALLAZGOS Y SOLUCIONES
+
+</h2>
+
+<div class="row g-4">
+
+<div class="col-md-6 col-lg-4">
+
+<div class="card desc-card shadow">
+
+<div class="icono-desc">✏️</div>
+
+<div class="card-body">
+
+<h4 class="titulo-card">
+
+Control del Trazo
+
+</h4>
+
+<p>
+
+Descubrimos que realizar ejercicios diarios mejora la precisión y seguridad del dibujo a mano alzada.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-6 col-lg-4">
+
+<div class="card desc-card shadow">
+
+<div class="icono-desc">📐</div>
+
+<div class="card-body">
+
+<h4 class="titulo-card">
+
+Uso de Escalas
+
+</h4>
+
+<p>
+
+Comprendimos la importancia de representar correctamente las dimensiones mediante escalas normalizadas.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-6 col-lg-4">
+
+<div class="card desc-card shadow">
+
+<div class="icono-desc">🏛️</div>
+
+<div class="card-body">
+
+<h4 class="titulo-card">
+
+Representación Arquitectónica
+
+</h4>
+
+<p>
+
+Aprendimos que una correcta simbología facilita la interpretación de planos arquitectónicos.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-6 col-lg-4">
+
+<div class="card desc-card shadow">
+
+<div class="icono-desc">🎨</div>
+
+<div class="card-body">
+
+<h4 class="titulo-card">
+
+Texturas
+
+</h4>
+
+<p>
+
+Identificamos técnicas para representar materiales como piedra, madera y concreto de forma gráfica.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-6 col-lg-4">
+
+<div class="card desc-card shadow">
+
+<div class="icono-desc">🏗️</div>
+
+<div class="card-body">
+
+<h4 class="titulo-card">
+
+Maquetas
+
+</h4>
+
+<p>
+
+El uso de modelos físicos permitió comprender mejor los espacios y volúmenes arquitectónicos.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-6 col-lg-4">
+
+<div class="card desc-card shadow">
+
+<div class="icono-desc">💻</div>
+
+<div class="card-body">
+
+<h4 class="titulo-card">
+
+Dibujo Digital
+
+</h4>
+
+<p>
+
+Conocimos herramientas CAD básicas para complementar el proceso de representación arquitectónica.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+<div class="container text-center">
+
+<h4>
+
+REPRESENTACIÓN Y EXPRESIÓN I
+
+</h4>
+
+<p>
+
+ARQ. WILLIAMS TERRAZAS
+
+</p>
+
+</div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
